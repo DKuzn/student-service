@@ -33,7 +33,7 @@ dkuzn@localhost:~$ ./student-service --fullname "Ivanov Ivan Ivanovich" --port 8
 
 Вывод информацию о студенте, а именно полное имя и PID процесса исполняемого файла. Возвращает JSON сделующего вида.
 
-```json
+```jsonc
 {
     "proc_id": 12, // ID запущенного процесса
     "full_name": "Ivanov Ivan Ivanovich" // Полное имя студента
